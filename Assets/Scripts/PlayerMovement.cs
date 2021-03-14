@@ -13,7 +13,7 @@ public class PlayerMovement : MonoBehaviour
 	public float maxFallSpeed = -25f;		//Max speed player can fall
 
 	[Header("Jump Properties")]
-	public float jumpForce = 6.3f;			//Initial force of jump
+	public float jumpForce = 3.15f;			//Initial force of jump
 	public float crouchJumpBoost = 2.5f;	//Jump boost when crouching
 	public float hangingJumpForce = 15f;	//Force of wall hanging jumo
 	public float jumpHoldForce = 1.9f;		//Incremental force when jump is held
